@@ -4,5 +4,5 @@
 -- List of theme colors: https://neuron.zettel.page/2014601.html
 , theme = "teal"
 -- This is used in the "edit" button
-, editUrl = Some "https://frilox042.github.io/psychic-succotash/edit/master/"
+, editUrl = Some "https://github.com/frilox042/psychic-succotash/edit/master/"
 }
