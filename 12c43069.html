@@ -119,7 +119,7 @@ MyGame
 <span class="">monster </span><span class="op">=</span><span class=""> MyGame.Sample.Monster.Monster.GetRootAsMonster(monster_serialized, </span><span class="dv">0</span><span class="">)</span>
 
 <span class="">monster.Hp() </span><span class="co"># 42</span>
-</code></pre></div><hr /><h2 id="file-content">File content</h2><h3 id="capn-proto-1">Cap’n Proto</h3><div class="pandoc-code nosyntax"><pre><code>@0x918572045ffb997c;
+</code></pre></div><hr /><h2 id="annexe">Annexe</h2><h3 id="file-content">File content</h3><h4 id="capn-proto-1">Cap’n Proto</h4><div class="pandoc-code nosyntax"><pre><code>@0x918572045ffb997c;
 
 struct Person {
   name @0 :Text;
@@ -145,13 +145,13 @@ struct Date {
   month @1 :UInt8;
   day @2 :UInt8;
 }
-</code></pre></div><h3 id="protobuf-1">Protobuf</h3><div class="pandoc-code nosyntax"><pre><code>syntax = &quot;proto2&quot;;
+</code></pre></div><h4 id="protobuf-1">Protobuf</h4><div class="pandoc-code nosyntax"><pre><code>syntax = &quot;proto2&quot;;
 
 message Person {
   required string name = 1;
   required int32 id = 2;
   optional string email = 3;
-}</code></pre></div><h3 id="flatbuffers-1">Flatbuffers</h3><div class="pandoc-code nosyntax"><pre><code>// Example IDL file for our monster&#39;s schema.
+}</code></pre></div><h4 id="flatbuffers-1">Flatbuffers</h4><div class="pandoc-code nosyntax"><pre><code>// Example IDL file for our monster&#39;s schema.
 namespace MyGame.Sample;
 enum Color:byte { Red = 0, Green, Blue = 2 }
 union Equipment { Weapon } // Optionally add more tables.
